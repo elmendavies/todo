@@ -1,0 +1,16 @@
+
+
+
+curl -X POST -d '{"name":1}' -H 'Content-Type: application/json' localhost:8080/api -vv
+
+curl -X POST -d '{"description":"Hola mundo"}' -H 'Content-Type: application/json' localhost:8080/api/1 -vv
+
+
+curl -H 'Content-Type: application/json' localhost:8080/api/1 -vv
+
+curl -X DELETE -H 'Content-Type: application/json' localhost:8080/api/1 -vv
+
+
+
+
+
